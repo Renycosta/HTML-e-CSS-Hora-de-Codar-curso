@@ -6,3 +6,179 @@ body{
 h3{
     color: green;
 }
+
+/* Classes */
+.paragraph{
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* Id */
+#exclusive-title{
+    background-color: blueviolet;
+    color: yellow;
+    padding: 20px;
+}
+
+/* Multiplas regras, ordem do css */
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+    border-bottom: 5px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 8px solid green;
+}
+
+/* Multiplas regras, ordem do css */
+.color-name{
+    color: rgb(255, 0, 0);
+}
+
+/* Cores hexadecimais */
+.hex{
+    color: #55a398;
+}
+
+/* Mais sobre hexadecimais */
+.hex-simp{
+    color: #333;
+}
+.hex-simp-2{
+    color: #a5f;
+}
+
+/* Cores RGB */
+.RGB{
+    color: rgb(21, 89, 09);
+}
+
+/* Cores RGBa */
+.RGBa{
+    color: rgba(99, 87, 96, 0.589);
+}
+
+/* Cores HSL */
+.HSL{
+    color: hsl(89, 100%, 33%);
+}
+
+/* Cores Background */
+.bg{
+    background-color: #000;
+    color: #fffb00;
+}
+
+/* Background opacidade */
+.bg-opa{
+    background-color: #a5f;
+    opacity: 0.2;
+}
+
+/* RGB Background */
+.bg-rgb{
+    background-color: hsla(172, 31%, 49%, 0.658);
+}
+
+/* background-image  */
+.bg-img{
+    background-image: url(../img/image.png);
+    color: white;
+    padding: 10px;
+}
+
+/* Centralizar background-image */
+.not-centered, .centered{
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/image\ copy.png);
+}
+
+.centered{
+    background-position: center;
+    background-size: cover;
+}
+
+/* largura e altura */
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: purple;
+}
+
+.height-width{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+}
+
+/* padding */
+.padding{
+    padding: 20px;
+}
+
+/* padding individual */
+.padding-ind{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* padding individual */
+.padding-short{
+    padding: 6px 12px 18px 24px;
+}
+
+.padding-short-2{
+    padding: 10px 20px; /*padding: 10px 20px 10px 20px;*/
+}
+
+/* padding com width */
+.sem-border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Borda */
+.borda{
+    border: 5px solid red;
+}
+
+.borda-2{
+    border: 2px dotted blue;
+}
+
+/* Borda individual */
+.borda-left{
+    border-left: 2px solid red;
+}
+
+.borda-bottom{
+    border-left: 5px solid royalblue;
+}
+
+/* border-radius */
+.radius{
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.radius{
+    background-color: #000;
+    border-radius: 10px;
+}
